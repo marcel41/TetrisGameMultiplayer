@@ -3,7 +3,7 @@ class Player
     constructor(tetris)
     {
       this.DROP_SLOW = 1000;
-      this.DROP_FAST = 30;
+      this.DROP_FAST = 38;
       this.events = new Events();
       this.tetris = tetris;
       this.arena = tetris.arena;
