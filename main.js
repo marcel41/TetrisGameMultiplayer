@@ -3,7 +3,7 @@ const localTetris = tetrisManager.createPlayer();
 localTetris.element.classList.add('local');
 localTetris.run();
 const connectionManager = new ConnectionManager(tetrisManager);
-connectionManager.connect('ws://localhost:5000');
+connectionManager.connect('ws://lit-caverns-36127.herokuapp.com');
 
 function createMatrix(width, height){
   const matrix = [];
